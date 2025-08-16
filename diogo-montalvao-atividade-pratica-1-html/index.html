@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Atividade Prática</title>
+
+    <meta name="author" content="Diogo">
+    <meta name="description" content="Atividade Prática de Desenvolvimento de Sistemas">
+    <meta copyright="&copy; SENAI Camaçari">
+</head>
+
+<body>
+    <main>
+        <h1>Testando Carga e Imagens</h1>
+
+        <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+        <img src="HTML5_logo_and_wordmark.svg.png" width="200px">
+
+        <p>Podemos também carregar imagens que estão em sub-pastas.</p>
+        <img src="SRC/CSS3_logo_and_wordmark.svg.png" width="200px">
+
+        <p>Também podemos carregar imagens externas.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+            width="200px">
+
+        <h1>Principais formatações</h1>
+
+        <h2>Negrito / Destaque</h2>
+        <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+        <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+
+        <h2>Itálico / Ênfase</h2>
+        <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+        <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+
+        <h2>Texto marcado</h2>
+        <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+        <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+
+        <h2>Text grande e pequeno</h2>
+        <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.
+        </p>
+        <p>Existe também o <u>sublinhado</u> com a tag U (não semântica).</p>
+
+        <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3.</p>
+
+        <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O.</p>
+
+        <h1>Trabalhando com Listas</h1>
+
+        <h2>Listas Ordenadas</h2>
+        <ol type="i">
+            <li>Acordar</li>
+            <li>Ligar para o João</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li>Ir para a faculdade</li>
+            <li>Almoçar</li>
+            <li>Ir para o trabalho</li>
+            <li>Voltar para casa</li>
+            <li>Jantar</li>
+            <li>Dormir</li>
+        </ol>
+
+        <h2>Listas não Ordenadas</h2>
+        <ul style="list-style-type: square;">
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Alface</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+
+        <h2>Minhas linguagens favoritas</h2>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Dekphi</li>
+            </ol>
+
+            <li>Novas</li>
+            <ol type="a" start="5">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </ol>
+
+        <h2>Meus jogos favoritos</h2>
+        <ol>
+            <li>NES</li>
+            <ul style="list-style-type: square;">
+                <li>Mario Bros</li>
+                <ul style="list-style-type: circle;">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+
+            <li>SNES</li>
+            <ul style="list-style-type: square;">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+
+            <li>PlayStation</li>
+            <ul style="list-style-type: square;">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+
+        <h2>Lista de Definições</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para a criação do design de um site.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        </dl>
+
+        <h1>Usando links externos</h1>
+        <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank">repositório público no
+                GitHub</a>.</p>
+        <p>Você também pode acessar a nossa <a href="https://gustavoguanabara.github.io/" target="_blank">canal gratuito
+                no YouTube</a>.
+        </p>
+
+        <h1>Usando links internos</h1>
+        <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pagina2.html"
+                target="_blank">segunda página</a></p>
+        <p>Você também pode acessar a nossa <a href="pagina3.html" target="_blank">página de noticias</a></p>
+
+        <h1>Links para download</h1>
+        <ul>
+            <li><a href="SRC/pedra_filosofal.pdf" download="harry_port">Baixar o livro em PDF</a></li>
+            <li><a href="SRC/pedra_filosofal.zip" download="harry_port">Livro compactado em ZIP</a></li>
+        </ul>
+
+        <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+            navegador.</p>
+        <img src="SRC/windows.png" width="500px">
+
+        <h1>Reproduzindo áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTMLS.</p>
+        <audio controls>
+            <source src="SRC/The Tokens - The Lion Sleeps Tonight (Wimoweh) (Audio).mp4">
+        </audio>
+
+        <h1>Inserindo vídeos hospedados localmente</h1>
+        <p>Este vídeo está hospedado no meu próprio servidor.</p>
+        <video width="500px" controls>
+            <source src="SRC/I Love Helmets.mp4">
+        </video>
+
+        <h1>Inserindo vídeos do YouTube</h1>
+        <iframe width="500px" height="280px" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=cX_iEnhyMrdbcNcd"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+</body>
+
+</html>
