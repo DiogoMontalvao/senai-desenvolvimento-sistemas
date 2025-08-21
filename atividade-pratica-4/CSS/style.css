@@ -1,0 +1,27 @@
+p {
+    font-family: Arial Black;
+}
+
+.primeira-div {
+    background-color: yellow;
+}
+
+.paragrafo-destacado {
+    color: red;
+}
+
+.segunda-div {
+    color: red;
+}
+
+.segunda-div p:nth-of-type(1) {
+    color:red;
+}
+
+.segunda-div p {
+    color:black;
+}
+
+.primeira-div p {
+    color: black;
+}
