@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    border-style: solid;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+}
+
+.left-50 {
+    width: 50%;
+    background-color: orange;
+    border-style: solid;
+}
+
+.right-50 {
+    width: 50%;
+    background-color: green;
+    border-style: solid;
+}
+
+.left-40 {
+    width: 40%;
+    background-color: yellow;
+    border-style: solid;
+}
+
+.right-60 {
+    width: 60%;
+    background-color: red;
+    border-style: solid;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    border-style: solid;
+}
