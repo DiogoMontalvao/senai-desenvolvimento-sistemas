@@ -5,24 +5,78 @@
 
     <title>Atividade Prática 06 CSS</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
     <header>
-        <div class="logo"></div>
-        <div class="nav"></div>
-        <div class="redesSociais"></div>
+        <div class="logo"><img src="SRC/logaster-2022-07-one-piece-symbol.png" alt="logo-one-piece"></div>
+
+        <nav>
+            <ul>
+                <li>Início</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+
+        <ul class="redesSociais">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Xuitter</li>
+        </ul>
     </header>
 
     <div class="banner"></div>
 
-    <div class="container">
-        <div class="left50">
-            <div class="retangulinho"></div>
-        </div>
-        <div class="right50"></div>
+    <div class="produtos">
+        <ul class="cards">
+            <li class="card">
+                <p class="forma"></p>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus exercitationem, reprehenderit
+                    vero eius nostrum autem eligendi repellat ut repellendus, iusto.</p>
+            </li>
+
+            <li class="card">
+                <p class="forma"></p>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus exercitationem, reprehenderit
+                    vero eius nostrum autem eligendi repellat ut repellendus, iusto.</p>
+            </li>
+
+            <li class="card">
+                <p class="forma"></p>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus exercitationem, reprehenderit
+                    vero eius nostrum autem eligendi repellat ut repellendus, iusto.</p>
+            </li>
+        </ul>
     </div>
+
+    <form action="#" method="post">
+        <div class="inputLabel">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+        </div>
+
+        <div class="inputLabel">
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf">
+        </div>
+
+        <div class="inputLabel">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="inputLabel">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone">
+        </div>
+
+        <button>Enviar</button>
+    </form>
 
     <footer></footer>
 </body>
