@@ -11,20 +11,16 @@
     <script src="JS/script.js"></script>
 </head>
 
-<body>
+<body onload="setInterval(atualizarHorario, 1000);">
     <main>
         <div class="container">
-            <div class="tempo">
-                <p id="horas">00</p>
-            </div>
-           
-            <div class="tempo">
-                <p id="minutos">00</p>
-            </div>
+            <p id="horasText">00</p>
+            <p class="divisor">:</p>
+
+            <p id="minutosText">00</p>
+            <p class="divisor">:</p>
             
-            <div class="tempo">
-                <p id="segundos">00</p>
-            </div>
+            <p id="segundosText">00</p>
         </div>
     </main>
 </body>
