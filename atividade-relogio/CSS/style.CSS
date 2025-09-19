@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 800px;
+}
+
+p {
+    
+}
