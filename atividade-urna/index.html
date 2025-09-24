@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link id="css" rel="stylesheet" href="CSS/main.CSS">
+    <script src="JS/script.js" defer></script>
+
+    <title>Atividade Urna</title>
+</head>
+
+<body onload="votacaoVereador();">
+    <main>
+        <div id="borda">
+            <div id="tela">
+                <p id="cargoText">Cargo</p>
+
+                <div class="containerDados">
+                    <div class="dados">
+                        <p id="numero">Número:</p>
+                        <p class="espacoNumero" id="numero1Text"></p>
+                        <p class="espacoNumero" id="numero2Text"></p>
+                        <p class="espacoNumero" id="numero3Text"></p>
+                        <p class="espacoNumero" id="numero4Text"></p>
+                        <p class="espacoNumero" id="numero5Text"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="nome">Nome:</p>
+                        <p id="nomeText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="partido">Partido:</p>
+                        <p id="partidoText"></p>
+                    </div>
+                </div>
+
+                <img id="fotoCandidato" src="" alt="Foto Candidato">
+            </div>
+
+            <div id="teclado">
+                <div class="tecladoLinha">
+                    <button id="umButton">1</button>
+                    <button id="doisButton">2</button>
+                    <button id="tresButton">3</button>
+                </div>
+
+                <div class="tecladoLinha">
+                    <button id="quatroButton">4</button>
+                    <button id="cincoButton">5</button>
+                    <button id="seisButton">6</button>
+                </div>
+
+                <div class="tecladoLinha">
+                    <button id="seteButton">7</button>
+                    <button id="oitoButton">8</button>
+                    <button id="noveButton">9</button>
+                </div>
+
+                <div class="tecladoLinha zeroLinha">
+                    <button id="zeroButton">0</button>
+                </div>
+
+                <div class="tecladoLinha ">
+                    <button class="botaoVotacao" id="brancoButton">BRANCO</button>
+                    <button class="botaoVotacao" id="corrigeButton">CORRIGE</button>
+                    <button class="botaoVotacao" id="confirmaButton">CONFIRMA</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="legenda">
+            <button id="finalizarVotacaoButton">Finalizar Eleições</button>
+            <button id="proximoEleitorButton">Próximo Eleitor</button>
+
+            <div id="infos">
+                <p>Aperte a tecla:</p>
+                <p>VERDE para CONFIRMAR</p>
+                <p>LARANJA para CORRIGIR</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

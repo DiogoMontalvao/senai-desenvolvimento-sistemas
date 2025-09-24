@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#borda {
+    width: 1200px;
+    height: 500px;
+
+    background-color: rgba(165, 42, 42, 0.100);
+
+    border-style: solid;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tela {
+    width: 650px;
+    height: 400px;
+
+    background-color: white;
+
+    border-style: solid;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tela #cargoText {
+    margin: 20px;
+
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.dados, #fotoCandidato {
+    display: none;
+}
+
+#teclado {
+    width: 400px;
+    height: 400px;
+
+    background-color: rgb(63, 62, 62);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#teclado .tecladoLinha {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#teclado .zeroLinha {
+    justify-content: center;
+}
+
+button {
+    width: 110px;
+    height: 60px;
+
+    background-color: black;
+
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+#teclado .botaoVotacao {
+    font-size: 16px;
+}
+
+#teclado #brancoButton {
+    background-color: white;
+    color: black;
+}
+
+#teclado #corrigeButton {
+    background-color: orange;
+    color: white;
+}
+
+#teclado #confirmaButton {
+    background-color: green;
+    color: white;
+}
+
+#legenda {
+    width: 1200px;
+
+    margin-top: 20px;
+    padding-inline: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#legenda button {
+    width: 240px;
+
+    background-color: beige;
+    color: black;
+
+    display: none;
+}
+
+#legenda #infos {
+    font-weight: bold;
+}
+
