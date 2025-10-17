@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link id="css" rel="stylesheet" href="CSS/resultadoEleicoes.CSS">
-    <script src="JS/script.js" defer></script>
+    <script src="JS/resultadoEleicoes.js" defer></script>
 
     <title>Atividade Urna</title>
 </head>
 
-<body onload="fimVotacao();">
+<body onload="resultadoEleicoes();">
     <main>
         <div id="borda">
             <div id="tela">
@@ -21,65 +21,47 @@
 
                 <div class="containerDados">
                     <div class="dados">
-                        <p id="votosValidosVereador">Votos Válidos Vereador:</p>
-                        <p id="votosValidosVereadorText"></p>
-                    </div>
-
-                    <div class="dadosCandidato">
-                        <div class="dados">
-                            <p id="votosNaara">Votos Naara:</p>
-                            <p id="votosNaaraText"></p>
-                        </div>
-
-                        <div class="dados">
-                            <p id="porcentagemNaara">Porcentagem Naara:</p>
-                            <p id="porcentagemNaaraText"></p>
-                        </div>
-                    </div>
-
-                    <div class="dadosCandidato">
-                        <div class="dados">
-                            <p id="votosKarol">Votos Karol:</p>
-                            <p id="votosKarolText"></p>
-                        </div>
-
-                        <div class="dados">
-                            <p id="porcentagemKarol">Porcentagem Karol:</p>
-                            <p id="porcentagemKarolText"></p>
-                        </div>
+                        <p id="votosNulos">Votos Nulos:</p>
+                        <p id="votosNulosText"></p>
                     </div>
 
                     <div class="dados">
-                        <p id="votosValidosPrefeito">Votos Válidos Prefeito:</p>
-                        <p id="votosValidosPrefeitoText"></p>
-                    </div>
-
-                    <div class="dadosCandidato">
-                        <div class="dados">
-                            <p id="votosFernanda">Votos Fernanda:</p>
-                            <p id="votosFernandaText"></p>
-                        </div>
-
-                        <div class="dados">
-                            <p id="porcentagemFernanda">Porcentagem Fernanda:</p>
-                            <p id="porcentagemFernandaText"></p>
-                        </div>
-                    </div>
-
-                    <div class="dadosCandidato">
-                        <div class="dados">
-                            <p id="votosVitorugo">Votos Vitorugo:</p>
-                            <p id="votosVitorugoText"></p>
-                        </div>
-
-                        <div class="dados">
-                            <p id="porcentagemVitorugo">Porcentagem Vitorugo:</p>
-                            <p id="porcentagemVitorugoText"></p>
-                        </div>
+                        <p id="votosBrancos">Votos Brancos:</p>
+                        <p id="votosBrancosText"></p>
                     </div>
 
                     <div class="dados">
-                        <p id="vereador">Vereador Vencedor:</p>
+                        <p class="tituloVotos" id="votosValidosVereador">Votos Válidos Vereador:</p>
+                        <p class="votosText" id="votosValidosVereadorText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="votosNaara">Votos Naara:</p>
+                        <p class="votosText" id="votosNaaraText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="votosKarol">Votos Karol:</p>
+                        <p class="votosText" id="votosKarolText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p class="tituloVotos" id="votosValidosPrefeito">Votos Válidos Prefeito:</p>
+                        <p class="votosText" id="votosValidosPrefeitoText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="votosFernanda">Votos Fernanda:</p>
+                        <p class="votosText" id="votosFernandaText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p id="votosVitorugo">Votos Vitorugo:</p>
+                        <p class="votosText" id="votosVitorugoText"></p>
+                    </div>
+
+                    <div class="dados">
+                        <p class="tituloVotos" id="vereador">Vereador Vencedor:</p>
                         <p id="vereadorText"></p>
                     </div>
 

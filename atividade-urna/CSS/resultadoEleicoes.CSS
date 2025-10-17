@@ -46,6 +46,24 @@ main {
     flex-direction: column;
 }
 
-.dadosCandidato {
+#resultadoEleicoes {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.dados {
+    margin-top: 4px;
+    
+    font-size: 20px;
+    font-weight: bold;
+
     display: flex;
+}
+
+.dados .tituloVotos, #votosValidosVereadorText, #votosValidosPrefeitoText {
+    margin-top: 20px;
+}
+
+.votosText, #votosNulosText, #votosBrancosText {
+    padding-left: 10px;
 }

@@ -37,10 +37,8 @@ const numeroKarol = 54321;
 const numeroFernanda = 12;
 const numeroVitorugo = 21;
 
-var totalVotos = 0;
-
-var votosBranco = 0;
-var votosNulo = 0;
+var votosBrancos = 0;
+var votosNulos = 0;
 
 var votosKarol = 0;
 var votosNaara = 0;
@@ -49,7 +47,7 @@ var votosFernanda = 0;
 var votosVitorugo = 0;
 
 function votacaoVereador() {
-    css.href = "CSS/resultadoEleicoes.CSS";
+    css.href = "CSS/vereador.CSS";
     cargoText.innerText = "Vereador";
 
     clicaBotoesVereador();
@@ -76,8 +74,7 @@ function clicaNumerosVereador() {
 }
 
 function votoNuloVereador() {
-    totalVotos++;
-    votosNulo++;
+    votosNulos++;
 
     css.href = "CSS/mensagemCentral.CSS";
     cargoText.innerText = "Voto Nulo";
@@ -86,8 +83,7 @@ function votoNuloVereador() {
 }
 
 function votoBrancoVereador() {
-    totalVotos++;
-    votosBranco++;
+    votosBrancos++;
 
     css.href = "CSS/mensagemCentral.CSS";
     cargoText.innerText = "Voto Branco";
@@ -131,7 +127,6 @@ function confirmaVotoVereador() {
     }
 
     if (voto == numeroKarol) {
-        totalVotos++;
         votosKarol++;
 
         css.href = "CSS/mensagemCentral.CSS";
@@ -142,7 +137,6 @@ function confirmaVotoVereador() {
     }
 
     if (voto == numeroNaara) {
-        totalVotos++;
         votosNaara++;
 
         css.href = "CSS/mensagemCentral.CSS";
@@ -217,8 +211,7 @@ function clicaNumerosPrefeito() {
 }
 
 function votoBrancoPrefeito() {
-    totalVotos++;
-    votosBranco++;
+    votosBrancos++;
 
     css.href = "CSS/mensagemCentral.CSS";
     cargoText.innerText = "Voto Branco";
@@ -227,8 +220,7 @@ function votoBrancoPrefeito() {
 }
 
 function votoNuloPrefeito() {
-    totalVotos++;
-    votosNulo++;
+    votosNulos++;
 
     css.href = "CSS/votoNulo.CSS";
     cargoText.innerText = "Voto Nulo";
@@ -260,7 +252,6 @@ function confirmaVotoPrefeito() {
     }
 
     if (voto == numeroFernanda) {
-        totalVotos++;
         votosFernanda++;
 
         css.href = "CSS/mensagemCentral.CSS";
@@ -271,7 +262,6 @@ function confirmaVotoPrefeito() {
     }
 
     if (voto == numeroVitorugo) {
-        totalVotos++;
         votosVitorugo++;
 
         css.href = "CSS/mensagemCentral.CSS";
@@ -302,41 +292,23 @@ function preencheNumeroPrefeito(numero) {
     }
 }
 
-// Parte do Fim da Votação
+// Fim Votação
 
 function fimVotacao() {
-    css.href = "CSS/fimVotacao.CSS";
-    cargoText.innerText = "FIM";
-
-    proximoVotoButton.onclick = votacaoVereador;
-    finalizarVotacaoButton.onclick = resultadoEleicoes;
+    css.href = "CSS/fimVotacao"
 }
 
 function resultadoEleicoes() {
-    contabilizarVotos();
+    localStorage.setItem("votosBrancos", votosBrancos);
+    localStorage.setItem("votosNulos", votosNulos);
 
+    localStorage.setItem("votosKarol", votosKarol);
+    localStorage.setItem("votosNaara", votosNaara);
+
+    localStorage.setItem("votosFernanda", votosFernanda);
+    localStorage.setItem("votosVitorugo", votosVitorugo);
     
-}
-
-function contabilizarVotos() {
-    let votosValidosVereador = votosNaara + votosKarol;
-    let votosValidosPrefeito = votosFernanda + votosVitorugo;
-
-    let porcentagemNaara = 0;
-    let porcentagemKarol = 0;
-
-    let porcentagemFernanda = 0;
-    let porcentagemVitorugo = 0;
-
-    if (votosValidosVereador > 0) {
-        porcentagemNaara = (votosNaara / votosValidosVereador) * 100;
-        porcentagemKarol = (votosKarol / votosValidosVereador) * 100;
-    } 
-    
-    if (votosValidosPrefeito > 0) {
-        porcentagemFernanda = (votosFernanda / votosValidosPrefeito) * 100;
-        porcentagemVitorugo = (votosVitorugo / votosValidosPrefeito) * 100;
-    } 
+    window.location.href = "resultadoEleicoes.html";
 }
 
 
