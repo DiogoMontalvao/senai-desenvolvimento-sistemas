@@ -1,0 +1,15 @@
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.GeneratedMSBuildEditorConfig.editorconfig
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.AssemblyInfoInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.AssemblyInfo.cs
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.csproj.CoreCompileInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.sourcelink.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/bin/Debug/net8.0/c#-atividade-2
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/bin/Debug/net8.0/c#-atividade-2.deps.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/bin/Debug/net8.0/c#-atividade-2.runtimeconfig.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/bin/Debug/net8.0/c#-atividade-2.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/bin/Debug/net8.0/c#-atividade-2.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/refint/c#-atividade-2.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/c#-atividade-2.genruntimeconfig.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-2/obj/Debug/net8.0/ref/c#-atividade-2.dll
