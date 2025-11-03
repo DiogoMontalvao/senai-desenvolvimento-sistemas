@@ -1,0 +1,15 @@
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.GeneratedMSBuildEditorConfig.editorconfig
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.AssemblyInfoInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.AssemblyInfo.cs
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.csproj.CoreCompileInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.sourcelink.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/bin/Debug/net8.0/c#-atividade-computadores
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/bin/Debug/net8.0/c#-atividade-computadores.deps.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/bin/Debug/net8.0/c#-atividade-computadores.runtimeconfig.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/bin/Debug/net8.0/c#-atividade-computadores.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/bin/Debug/net8.0/c#-atividade-computadores.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/refint/c#-atividade-computadores.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/c#-atividade-computadores.genruntimeconfig.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-computadores/obj/Debug/net8.0/ref/c#-atividade-computadores.dll
