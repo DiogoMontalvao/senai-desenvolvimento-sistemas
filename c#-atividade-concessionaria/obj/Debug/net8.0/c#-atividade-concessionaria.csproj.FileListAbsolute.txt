@@ -1,0 +1,15 @@
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.GeneratedMSBuildEditorConfig.editorconfig
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.AssemblyInfoInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.AssemblyInfo.cs
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.csproj.CoreCompileInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.sourcelink.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/bin/Debug/net8.0/c#-atividade-concessionaria
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/bin/Debug/net8.0/c#-atividade-concessionaria.deps.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/bin/Debug/net8.0/c#-atividade-concessionaria.runtimeconfig.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/bin/Debug/net8.0/c#-atividade-concessionaria.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/bin/Debug/net8.0/c#-atividade-concessionaria.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/refint/c#-atividade-concessionaria.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/c#-atividade-concessionaria.genruntimeconfig.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-concessionaria/obj/Debug/net8.0/ref/c#-atividade-concessionaria.dll
