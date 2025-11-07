@@ -1,0 +1,15 @@
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.GeneratedMSBuildEditorConfig.editorconfig
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.AssemblyInfoInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.AssemblyInfo.cs
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.csproj.CoreCompileInputs.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.sourcelink.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/bin/Debug/net8.0/c#-atividade-produtos-eletronicos
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/bin/Debug/net8.0/c#-atividade-produtos-eletronicos.deps.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/bin/Debug/net8.0/c#-atividade-produtos-eletronicos.runtimeconfig.json
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/bin/Debug/net8.0/c#-atividade-produtos-eletronicos.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/bin/Debug/net8.0/c#-atividade-produtos-eletronicos.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/refint/c#-atividade-produtos-eletronicos.dll
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.pdb
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/c#-atividade-produtos-eletronicos.genruntimeconfig.cache
+/home/montalvao/Desktop/senai-desenvolvimento-sistemas/c#-atividade-produtos-eletronicos/obj/Debug/net8.0/ref/c#-atividade-produtos-eletronicos.dll

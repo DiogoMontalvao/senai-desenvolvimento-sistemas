@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "c#-atividade-produtos-eletronicos/1.0.0": {
+        "runtime": {
+          "c#-atividade-produtos-eletronicos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c#-atividade-produtos-eletronicos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
